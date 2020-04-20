@@ -1,0 +1,8 @@
+/* Add mobile styles for the component here.  */
+Label{
+    color: white;
+}
+
+Image{
+    max-height: 100 !important;
+}

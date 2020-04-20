@@ -1,0 +1,20 @@
+<StackLayout class="p-20" class="bg" height="100%">
+
+    <ScrollView height="100%">    
+      <StackLayout height="100%" class="page">
+        <DockLayout stretchLastChild="true" height="80">
+          <Label dock="top" [text]="gadget.name"></Label>
+          <Image src=""></Image>
+          
+        </DockLayout>
+        <ScrollView>
+            <StackLayout>
+                <Image [src]="image"></Image>
+                <Button text="Buy Now" (tap)="openPage()"></Button>         
+            </StackLayout>
+        </ScrollView>
+        
+      </StackLayout>
+    </ScrollView>
+    
+  </StackLayout>
